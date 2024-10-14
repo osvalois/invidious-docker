@@ -1,0 +1,17 @@
+db:
+  dbname: invidious
+  user: kemal
+  password: kemal
+  host: invidious-db
+  port: 5432
+check_tables: true
+hmac_key: "CHANGE_ME!!"
+channel_threads: 0
+feed_threads: 0
+jobs:
+  clear_expired_items:
+    enabled: false
+  refresh_channels:
+    enabled: false
+  refresh_feeds:
+    enabled: false
